@@ -46,3 +46,5 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+repository: stargazer-info/stargazer-info.github.io
