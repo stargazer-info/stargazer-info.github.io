@@ -48,3 +48,4 @@ plugins:
 #   - vendor/ruby/
 
 repository: stargazer-info/stargazer-info.github.io
+google_analytics: G-95104SDS7H
