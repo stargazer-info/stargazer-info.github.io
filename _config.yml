@@ -26,14 +26,23 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
 markdown: kramdown
+#theme: minimal
 theme: minima
+#theme: jekyll-theme-yat
+#theme: jeffreytse/jekyll-theme-yat
 #theme: jekyll-theme-prologue
+# theme: owner/name --> Don't forget to remove/comment the gem-based theme option
+#remote_theme: pages-themes/minimal@v0.2.0
+#remote_theme: jeffreytse/jekyll-theme-yat
+#remote_theme: melvinchng/business-jekyll-theme
+#remote_theme: pages-themes/architect@v0.2.0
 header_pages:
   - about.md
 #collections: [sections]
 
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

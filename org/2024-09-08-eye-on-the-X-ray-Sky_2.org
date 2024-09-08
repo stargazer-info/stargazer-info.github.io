@@ -1,0 +1,72 @@
+#+TITLE: X線で見る宇宙 (2)
+#+STARTUP: showall indent
+#+STARTUP: hidestars
+#+OPTIONS: toc:nil
+#+BEGIN_EXPORT html
+---
+layout: post
+title: X線で見る宇宙 (2)
+category: astronomy
+tags: 天文
+---
+#+END_EXPORT
+
+* 弾丸銀河団(Bullet Cluster): ダークマターの直接的な証拠の発見
+
+銀河団を満たす大量の高温ガスは、チャンドラの典型的な観測対象です。
+広範囲にわたる観測によって、銀河団の進化と運動状態だけでなく、超巨大ブラックホールとそれを取り巻くガスとの相互作用を詳しく調査することができます。
+しかし、おそらく銀河団のX線観測の最も興味深い活用例は、ダークマターが存在する証拠を得られることです。
+
+#+CAPTION: 弾丸銀河団(Bullet Cluster)。ピンク色の二つの塊がChandraで検出されたX線放射で通常の物質の分布を示している。白/オレンジ色はハッブル望遠鏡とマゼラン望遠鏡による可視光の画像。青色は重力レンズで計測された銀河団の質量分布。(X線: NASA/CXC/CfA/M.Markevitch et al.; 可視光: NASA/STScI; Magellan/U.Arizona/D.Clowe et al.; 質量分布: NASA/STScI; ESO WFI; Magellan/U.Arizona/D.Clowe et al.)
+#+NAME: fig:Chandra1E0657
+#+ATTR_HTML: :alt 1E0657: 弾丸銀河団(Bullet Cluster) (X線: NASA/CXC/CfA/M.Markevitch et al.; 可視光: NASA/STScI; Magellan/U.Arizona/D.Clowe et al.; 質量分布: NASA/STScI; ESO WFI; Magellan/U.Arizona/D.Clowe et al.)
+[[file:{{site.url}}/assets/images/1e0657.jpg]]
+
+地球から34億光年離れた距離にある、二つの銀河団が合体している弾丸銀河団(Bullet Cluster)がその代表的な例です。
+この銀河団をチャンドラと可視光の両方で観測することにより、高温のX線ガスと銀河団の質量の中心がずれている事が明らかになりました。
+この質量のほとんどは電磁波では見えず、遠方の銀河の光を曲げる重力レンズの効果によって計測されています。
+
+このずれはなぜ生じているのでしょうか？
+片方の銀河団のX線ガスは他方のガスと相互作用によって減速して、弾丸のような特徴的な形になっています。
+しかしながら、相互作用しないダークマターは減速せずに直進します。
+銀河団中の銀河に含まれる星も、ほぼ相互作用せず直進しているのが多波長の画像で見えていますが、全質量を説明できるほどではありません。
+この一連の観測結果は、銀河団のほとんどが見えない物質ダークマターからなっていることを示す、初めての直接的な証拠です。
+
+* 超新星残骸カシオペアA
+
+#+CAPTION: 超新星残骸カシオペアAの元素分布 (赤: 珪素, 黄: 硫黄, 緑: カルシウム, 紫: 鉄)。高エネルギーX線(青)の外側のリング形状は広がる衝撃波を示しています。(NASA/CXC/SAO)
+#+NAME: fig:ChandraCasA
+#+ATTR_HTML: :alt 超新星残骸カシオペアAの元素分布 (NASA/CXC/SAO)
+[[file:{{site.url}}/assets/images/Chandra_CasA_life.jpg]]
+
+チャンドラの最初の、そして、おそらく最も象徴的な画像は、近傍の超新星残骸カシオペアAの観測よるものです。
+地球の生命にとって重要な、硫黄や鉄、酸素などの化学的元素は、星の内部で生成され、その最期に起こる爆発によって宇宙空間にばらまかれると考えられています。
+超新星残骸の研究は、星がそれらの元素をどのように生成し、ばらまくのかを理解する助けとなります。
+チャンドラの0.5秒角という高い分解能でのX線観測により、超新星爆発によって作り出された中性子星の存在を明らかになり、この小さな星を取り囲む爆発によって吹き飛ばされた星の層の構造がかつてない精度で明らかになりました。
+
+チャンドラは、20年以上にわたってこの超新星残骸を定期的に観測しており、その外観の変化を連続的に捉えています。
+カシオペアAの膨張速度は秒速約5000キロメートルとかなり速く、チャンドラのファーストライトから現在までの多数の観測結果をつなげることによって、その膨張の様子を動画として見ることができ、超新星残骸の物理的性質を詳細に調査することを可能にしています。
+
+* X線を伴う惑星状星雲
+チャンドラはハッブル宇宙望遠鏡と協力して、多くの惑星状星雲を観測し、星が死ぬ間際にみせる美しい姿の画像を作成しています。
+
+太陽程度の質量の星において、その水素が燃え尽きて赤色巨星になった際に、やがて白色矮星になる星の中心部を残して、外側の大気が放出されます。
+熱い中心星からの高速の星風が放出された大気に衝突して光って見えているのが惑星状星雲です。
+チャンドラの観測から、強い衝撃波を伴う若い(< 5000年)惑星状星雲から、淡いX線が検出されることが明らかになりました。
+
+#+CAPTION: 惑星状星雲 NGC 6543 (猫の目星雲), NGC 7662, NGC 7009, NGC 6826。Chandraで検出されたX線(紫)とハッブル望遠鏡による可視光(RGB)の画像。(X線: NASA/CXC/RIT/J.Kastner et al.; 可視光: NASA/STScI)
+#+NAME: fig:ChandraPlanetaryNebulae
+#+ATTR_HTML: :alt 惑星状星雲 NGC 6543 (猫の目星雲), NGC 7662, NGC 7009, NGC 6826。(X線: NASA/CXC/RIT/J.Kastner et al.; 可視光: NASA/STScI)
+[[file:{{site.url}}/assets/images/Chandra_pne.jpg]]
+
+* 冥王星からの低エネルギーX線の検出
+チャンドラは、2014年2月から2015年8月の観測において、冥王星からの低エネルギーX線を初めて検出しました。
+冥王星のように、磁場を持たない冷たい岩石の小天体からX線が検出されたことは驚きでした。
+太陽風が冥王星の希薄な大気にぶつかることによって、X線を放射していることが明らかになりました。
+
+* 参考文献
+- [[https://chandra.si.edu/photo/2006/1e0657/][1E 0657-56: NASA Finds Direct Proof of Dark Matter]]
+- [[https://chandra.harvard.edu/photo/2017/casa_life/][Chandra Reveals the Elementary Nature of Cassiopeia A]]
+- [[https://chandra.si.edu/photo/2012/pne/][NGC 6543: A Planetary Nebula Gallery]]
+- [[https://chandra.harvard.edu/photo/2016/pluto/][Pluto: X-ray Detection Sheds New Light on Pluto]]
+- 'Eye on the X-ray Sky', Akos Bogdan, Sky and Telescope, 2024年7月

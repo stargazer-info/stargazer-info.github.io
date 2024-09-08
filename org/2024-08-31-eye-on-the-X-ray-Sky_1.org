@@ -88,4 +88,4 @@ JWSTが検出した若い銀河に対して、銀河中心の成長するブラ�
 - [[https://chandra.harvard.edu/photo/2013/ngc6240/][NGC 6240: Colossal Hot Cloud Envelops Colliding Galaxies]]
 - [[https://chandra.harvard.edu/photo/2011/he210/index.html][Henize 2-10: A Surprisingly Close Look at the Early Cosmos]]
 - [[https://chandra.harvard.edu/photo/2023/uhz1/index.html][UHZ1: NASA Telescopes Discover Record-Breaking Black Hole]]
-- 'Eye on the X-ray Sky' Sky and Telescope, 2024年7月
+- 'Eye on the X-ray Sky', Akos Bogdan, Sky and Telescope, 2024年7月
