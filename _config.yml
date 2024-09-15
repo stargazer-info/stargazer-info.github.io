@@ -44,9 +44,14 @@ repository: stargazer-info/stargazer-info.github.io
 #google_analytics: G-95104SDS7H
 # Analytics
 analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
+  provider: "google-gtag"
   google:
-    tracking_id          :G-95104SDS7H
+    tracking_id: "G-95104SDS7H"
+    anonymize_ip: false # default
+# analytics:
+#   provider               : "google" # false (default), "google", "google-universal", "custom"
+#   google:
+#     tracking_id          :G-95104SDS7H
     
 # Exclude from processing.
 # The following items will not be processed, by default.
