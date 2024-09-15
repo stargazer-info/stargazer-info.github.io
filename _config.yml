@@ -41,8 +41,13 @@ plugins:
   - jekyll-include-cache
 
 repository: stargazer-info/stargazer-info.github.io
-google_analytics: G-95104SDS7H
-
+#google_analytics: G-95104SDS7H
+# Analytics
+analytics:
+  provider               : "google" # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :G-95104SDS7H
+    
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
