@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: single
 title:  "Privacy Policy"
 ---
 Nobuyuki Yamaguchi built the KotonohaDiary app as a Free app. This SERVICE is provided by Nobuyuki Yamaguchi at no cost and is intended for use as is.
