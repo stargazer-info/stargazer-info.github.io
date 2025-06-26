@@ -1,36 +1,28 @@
 # syntax=docker/dockerfile:1
 FROM ruby:alpine
 
-# su-exec をインストール (ユーザー切り替え用)
-RUN apk add --no-cache su-exec
+ARG HOST_UID=1000
+ARG HOST_GID=1000
 
-# 依存パッケージのインストール
-RUN apk update && apk --no-cache upgrade && \
+RUN addgroup -g $HOST_GID jekyll && \
+    adduser -u $HOST_UID -G jekyll -D jekyll && \
+    mkdir -p /app && \
+    chown -R jekyll:jekyll /app && \
     apk add --no-cache build-base
 
 WORKDIR /app
 
-# Gemfileを先にコピーしてbundle install (キャッシュ効率化)
-# Gemfile.lock のコピーを除外します
-COPY Gemfile ./
-RUN bundle install --jobs 4 # 並列インストールで高速化
+COPY --chown=jekyll:jekyll Gemfile ./
+RUN bundle install --jobs 4
 
-# entrypoint.sh をコピーして実行権限を付与
-COPY entrypoint.sh /usr/local/bin/entrypoint.sh
-RUN chmod +x /usr/local/bin/entrypoint.sh
-
-# 必要なディレクトリのみコピー
-COPY _posts/ ./_posts/
-COPY _drafts/ ./_drafts/
-COPY _includes/ ./_includes/
-COPY assets/ ./assets/
-COPY _config.yml .
+COPY --chown=jekyll:jekyll _posts/ ./_posts/
+COPY --chown=jekyll:jekyll _drafts/ ./_drafts/
+COPY --chown=jekyll:jekyll _includes/ ./_includes/
+COPY --chown=jekyll:jekyll assets/ ./assets/
+COPY --chown=jekyll:jekyll _config.yml .
 
 EXPOSE 4000
 
-# entrypoint.sh をコンテナのエントリーポイントとして設定
-ENTRYPOINT ["/usr/local/bin/entrypoint.sh"]
+USER jekyll
 
-# デフォルトで実行するコマンド (entrypoint.sh に引数として渡される)
-# docker-compose.yml の command で上書き可能
 CMD ["bundle", "exec", "jekyll", "server", "--host=0.0.0.0", "--livereload", "--trace"]
