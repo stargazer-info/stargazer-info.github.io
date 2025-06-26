@@ -9,8 +9,8 @@ RUN if ! getent group $HOST_GID >/dev/null; then \
     fi && \
     adduser -u $HOST_UID -G $(getent group $HOST_GID | cut -d: -f1) -D jekyll && \
     mkdir -p /app && \
-    chown -R jekyll:jekyll /app && \
-    apk add --no-cache build-base
+    apk add --no-cache build-base && \
+    chown -R jekyll: /app
 
 WORKDIR /app
 
