@@ -1,0 +1,28 @@
+# version: '3.8'
+
+services:
+  jekyll:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        HOST_UID: "${HOST_UID:-1000}"
+        HOST_GID: "${HOST_GID:-1000}"
+    image: jekyll-site-dev
+    container_name: sg_info_web # コンテナに名前を付ける (任意)
+    command: bundle exec jekyll server --host 0.0.0.0 --livereload --force_polling --trace
+    ports:
+      - "4000:4000" # ホストのポート : コンテナのポート
+      - "35729:35729" # LiveReload用ポート (jekyll serve の --livereload が使用)
+    volumes:
+      - .:/app # カレントディレクトリをコンテナの /app にマウント
+      # Gemのキャッシュを永続化して次回以降の bundle install を高速化 (任意)
+      # - bundle_cache:/usr/local/bundle
+    environment:
+      HOST_UID: "${HOST_UID:-1000}" # ホストのUIDを渡す。未設定なら1000
+      HOST_GID: "${HOST_GID:-1000}" # ホストのGIDを渡す。未設定なら1000
+      JEKYLL_ENV: "development"
+    # stop_signal: SIGINT # Ctrl+C で止めたときにJekyllが正しく終了するように (任意)
+
+# volumes:
+#   bundle_cache: # Gemキャッシュ用の名前付きボリューム (任意)
