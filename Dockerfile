@@ -17,10 +17,8 @@ WORKDIR /app
 COPY --chown=jekyll:jekyll Gemfile ./
 RUN bundle install --jobs 4
 
-COPY --chown=jekyll:jekyll _posts/ ./_posts/
-COPY --chown=jekyll:jekyll _drafts/ ./_drafts/
-COPY --chown=jekyll:jekyll _includes/ ./_includes/
-COPY --chown=jekyll:jekyll assets/ ./assets/
+# 開発時はボリュームマウントを使用するためコピー不要
+COPY --chown=jekyll:jekyll Gemfile ./
 COPY --chown=jekyll:jekyll _config.yml .
 
 EXPOSE 4000
