@@ -17,8 +17,6 @@ aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
   <path d="M24 20 L32 28 L24 36" stroke="#FF9500" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
   <path d="M28 24 L36 24" stroke="#FF9500" stroke-width="2" fill="none" stroke-linecap="round"/>
   
-  <!-- Code brackets -->
-  <text x="22" y="32" font-family="Monaco, monospace" font-size="8" fill="#00D4AA">&lt;/&gt;</text>
   
   <!-- Xcode hammer icon -->
   <circle cx="52" cy="16" r="8" fill="#1E90FF"/>
