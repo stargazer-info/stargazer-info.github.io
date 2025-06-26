@@ -4,8 +4,10 @@ FROM ruby:alpine
 ARG HOST_UID=1000
 ARG HOST_GID=1000
 
-RUN addgroup -g $HOST_GID jekyll && \
-    adduser -u $HOST_UID -G jekyll -D jekyll && \
+RUN if ! getent group $HOST_GID >/dev/null; then \
+        addgroup -g $HOST_GID jekyll; \
+    fi && \
+    adduser -u $HOST_UID -G $(getent group $HOST_GID | cut -d: -f1) -D jekyll && \
     mkdir -p /app && \
     chown -R jekyll:jekyll /app && \
     apk add --no-cache build-base
