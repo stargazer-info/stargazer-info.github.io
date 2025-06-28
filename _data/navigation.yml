@@ -1,6 +1,4 @@
 # main links
 main:
-  - title: "Posts"
-    url: /posts/
   - title: "会社概要"
     url: /company/

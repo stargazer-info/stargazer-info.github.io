@@ -10,10 +10,10 @@ header:
 excerpt: '*Science* Swift Objective-C Python C# C++ C  Bash B-Shell C-Shell JavaScript TypeScript HTML Java Ruby PHP SwiftUI Concurrency CoreNFC PostgreSQL Oracle PL/SQL'
 feature_row:
   - image_path: /assets/images/ios-dev-icon.svg
-    alt: "ソフトウェアの受託開発"
-    title: "ソフトウェアの受託開発"
+    alt: "ソフトウェア開発"
+    title: "ソフトウェア開発"
     excerpt: "お客様から要望されたソフトウェアの開発を行います。設計、開発、運用、保守まで幅広く対応可能です。"
-    url: "#ソフトウェアの受託開発"
+    url: "#ソフトウェア開発"
     btn_label: "詳しくはこちら"
     btn_class: "btn--inverse"
   - image_path: /assets/images/ios-dev-icon.svg
@@ -38,7 +38,7 @@ feature_row:
 
 ## 主な開発実績
 
-### ソフトウェアの受託開発
+### ソフトウェア開発
 
 | 名称 | 概要 | OS | 言語 | その他 |
 |---|---|---|---|---|
