@@ -1,30 +1,26 @@
 ---
-title: "Stargazer Information"
+title: "Stargazer Information Inc."
 layout: splash
 header:
-#  overlay_color: "#000"
-#  overlay_filter: "0.25"
   overlay_image: /assets/images/splash-company.svg
 #  actions:
 #    - label: "Download"
 #      url: "https://github.com/mmistakes/minimal-mistakes/"
 #  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: '*Science* Swift Objective-C Python C# C++ C  Bash B-Shell C-Shell JavaScript TypeScript HTML Java Ruby PHP SwiftUI Concurrency CoreNFC PostgreSQL Oracle PL/SQL'
-#intro: 
-#  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
 feature_row:
   - image_path: /assets/images/ios-dev-icon.svg
     alt: "ソフトウェアの受託開発"
     title: "ソフトウェアの受託開発"
-    excerpt: "お客様から要望されたソフトウェアの開発を行います。特にiOSアプリの開発を得意としています。"
+    excerpt: "お客様から要望されたソフトウェアの開発を行います。設計、開発、運用、保守まで幅広く対応可能です。"
     url: "#ソフトウェアの受託開発"
     btn_label: "詳しくはこちら"
     btn_class: "btn--inverse"
   - image_path: /assets/images/ios-dev-icon.svg
-    alt: "研究開発のサポート"
-    title: "研究開発のサポート"
+    alt: "研究開発支援"
+    title: "研究開発支援"
     excerpt: "お客様から要望されたソフトウェアの開発を行います。特にiOSアプリの開発を得意としています。"
-    url: "#研究開発のサポート"
+    url: "#研究開発支援"
     btn_label: "詳しくはこちら"
     btn_class: "btn--inverse"
   - image_path: /assets/images/astro.jpg
@@ -59,7 +55,7 @@ feature_row:
 | 自社WebサイトCMS化 | ソフトウェア開発企業／自社WebサイトCMS化 | Linux | Python | Plone, Zope |
 | ソフト開発サポートサイトの開発 | 課題管理、テスト管理システム等を統合したWebアプリ構築 | Linux | Ruby, PHP, HTML, JavaScript | Ruby on Rails, MySQL |
 
-### 研究開発のサポート
+### 研究開発支援
 
 | 名称 | 概要 | OS | 言語 | その他 |
 |---|---|---|---|---|
