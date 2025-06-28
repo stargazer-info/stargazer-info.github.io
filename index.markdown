@@ -19,7 +19,7 @@ feature_row:
   - image_path: /assets/images/ios-dev-icon.svg
     alt: "研究開発支援"
     title: "研究開発支援"
-    excerpt: "お客様から要望されたソフトウェアの開発を行います。特にiOSアプリの開発を得意としています。"
+    excerpt: "ソフトウェア開発の技術を基盤に、数学、物理学、天文学などの専門知識を活かした研究開発を支援します。"
     url: "#研究開発支援"
     btn_label: "詳しくはこちら"
     btn_class: "btn--inverse"
