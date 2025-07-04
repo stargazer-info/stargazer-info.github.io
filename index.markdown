@@ -42,7 +42,7 @@ feature_row:
 
 | 名称 | 概要 | OS | 言語 | その他 |
 |---|---|---|---|---|
-| 各種打刻アプリ開発 | 顔認証ライブラリ導入、対応カードリーダー追加、Obj-CからSwiftへの移行、Swift6対応 | iOS | Swift, Obj-C | SwiftUI, Swift Concurrency, CoreNFC |
+| 各種勤怠管理アプリ開発 | 顔認証ライブラリ導入、対応カードリーダー追加、Obj-CからSwiftへの移行、Swift6対応 | iOS | Swift, Obj-C | SwiftUI, Swift Concurrency, CoreNFC |
 | ECアプリ開発 | 機能追加、UIリニューアル、AmazonPay導入、各種MAツール導入、ユニバーサルリンク対応 | iOS | Swift | SwiftUI, Swift Concurrency |
 | ソフト開発トレーサビリティビュア開発 | ソフトウェア開発の成果物(仕様書、設計書、ソース、テスト仕様書等)の関連と更新履歴を可視化するwebアプリのプロトタイプ開発 | Windows | Python, C#, JavaScript, TypeScript | d3.js, PostgreSQL |
 | MR用業務メモアプリ開発 | 製薬会社MRが使用する業務メモモバイルアプリの開発 | Linux, iOS | Swift, Obj-C, JavaScript, Java | kony, Oracle, MySQL, Tomcat |
