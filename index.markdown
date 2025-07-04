@@ -9,14 +9,14 @@ header:
 #  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 excerpt: '*Science* Swift Objective-C Python C# C++ C  Bash B-Shell C-Shell JavaScript TypeScript HTML Java Ruby PHP SwiftUI Concurrency CoreNFC PostgreSQL Oracle PL/SQL'
 feature_row:
-  - image_path: /assets/images/ios-dev-icon.svg
+  - image_path: /assets/images/ios-dev-icon.png
     alt: "ソフトウェア開発"
     title: "ソフトウェア開発"
     excerpt: "お客様から要望されたソフトウェアの開発を行います。設計、開発、運用、保守まで幅広く対応可能です。"
     url: "#ソフトウェア開発"
     btn_label: "詳しくはこちら"
     btn_class: "btn--inverse"
-  - image_path: /assets/images/ios-dev-icon.svg
+  - image_path: /assets/images/research-icon.png
     alt: "研究開発支援"
     title: "研究開発支援"
     excerpt: "ソフトウェア開発の技術を基盤に、数学、物理学、天文学などの専門知識を活かした研究開発を支援します。"
