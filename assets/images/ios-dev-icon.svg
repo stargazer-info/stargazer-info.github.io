@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 200" aria-labelledby="title"
+aria-describedby="desc" role="img" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <title>iOS Development</title>
+  <desc>An icon representing iOS development with a laptop, Xcode, and iPhone.</desc>
+  
+  <!-- Background -->
+  <rect width="360" height="200" rx="20" ry="20" fill="#007AFF"/>
+  
+  <!-- Laptop base -->
+  <rect x="50" y="120" width="180" height="60" rx="8" ry="8" fill="#E5E5E7"/>
+  <rect x="55" y="125" width="170" height="50" rx="5" ry="5" fill="#2C2C2E"/>
+  
+  <!-- Laptop screen -->
+  <rect x="80" y="40" width="120" height="85" rx="8" ry="8" fill="#1C1C1E"/>
+  <rect x="85" y="45" width="110" height="75" rx="3" ry="3" fill="#000000"/>
+  
+  <!-- Xcode interface on screen -->
+  <rect x="88" y="48" width="104" height="12" fill="#2C2C2E"/>
+  <circle cx="92" r="2" cy="54" fill="#FF5F57"/>
+  <circle cx="98" r="2" cy="54" fill="#FFBD2E"/>
+  <circle cx="104" r="2" cy="54" fill="#28CA42"/>
+  
+  <!-- Code lines on screen -->
+  <rect x="88" y="65" width="60" height="2" fill="#007AFF"/>
+  <rect x="88" y="70" width="80" height="2" fill="#34C759"/>
+  <rect x="88" y="75" width="45" height="2" fill="#FF9500"/>
+  <rect x="88" y="80" width="70" height="2" fill="#007AFF"/>
+  <rect x="88" y="85" width="55" height="2" fill="#34C759"/>
+  <rect x="88" y="90" width="85" height="2" fill="#FF9500"/>
+  <rect x="88" y="95" width="40" height="2" fill="#007AFF"/>
+  <rect x="88" y="100" width="75" height="2" fill="#34C759"/>
+  <rect x="88" y="105" width="50" height="2" fill="#FF9500"/>
+  <rect x="88" y="110" width="65" height="2" fill="#007AFF"/>
+  
+  <!-- iPhone -->
+  <rect x="260" y="60" width="50" height="90" rx="12" ry="12" fill="#ffffff" stroke="#E5E5E7" stroke-width="2"/>
+  <rect x="265" y="70" width="40" height="70" rx="3" ry="3" fill="#000000"/>
+  
+  <!-- iPhone home indicator -->
+  <rect x="280" y="145" width="10" height="3" rx="1" ry="1" fill="#E5E5E7"/>
+  
+  <!-- Swift logo on iPhone screen -->
+  <path d="M270 85 L285 95 L270 105" stroke="#FF9500" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M278 90 L295 90" stroke="#FF9500" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Connection line between laptop and iPhone -->
+  <path d="M200 100 Q230 90 260 100" stroke="#34C759" stroke-width="2" fill="none" stroke-dasharray="3,3"/>
+  
+  <!-- Keyboard keys -->
+  <rect x="70" y="140" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="82" y="140" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="94" y="140" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="106" y="140" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="118" y="140" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="130" y="140" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="142" y="140" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="154" y="140" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="166" y="140" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="178" y="140" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="190" y="140" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="202" y="140" width="8" height="6" rx="1" fill="#8E8E93"/>
+  
+  <rect x="76" y="150" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="88" y="150" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="100" y="150" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="112" y="150" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="124" y="150" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="136" y="150" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="148" y="150" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="160" y="150" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="172" y="150" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="184" y="150" width="8" height="6" rx="1" fill="#8E8E93"/>
+  <rect x="196" y="150" width="8" height="6" rx="1" fill="#8E8E93"/>
+  
+  <!-- Trackpad -->
+  <rect x="130" y="160" width="40" height="25" rx="3" ry="3" fill="#8E8E93"/>
+</svg>
