@@ -7,7 +7,7 @@ tags:
   - 天文
 mathjax: true
 header:
-  og_image: /assets/images/20250821_og_image.jpg
+  og_image: https://storage.stargazer-info.com/images/astro/2025/m13.jpeg
 ---
 ## 測光による天の川銀河のモデル
 
